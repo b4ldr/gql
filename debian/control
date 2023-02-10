@@ -1,0 +1,30 @@
+Source: python3-gql
+Section: python
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13),
+ python3-all,
+Build-Depends-Indep:
+ dh-python,
+ python3-aiofiles,
+ python3-backoff,
+ python3-mock,
+ python3-parse,
+ python3-pytest,
+ python3-pytest-asyncio,
+ python3-pytest-console-scripts,
+ python3-setuptools,
+ python3-yarl,
+ python3-vcr,
+Rules-Requires-Root: no
+Standards-Version: 4.6.0.1
+Homepage: https://github.com/graphql-python/gql
+X-Python3-Version: >= 3.7
+
+Package: python3-gql
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: This is a GraphQL client for Python 3.7+. Plays nicely with
+  graphene, graphql-core, graphql-js and any other GraphQL implementation
+  compatible with the spec.
+  .

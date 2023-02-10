@@ -1,0 +1,5 @@
+python3-gql (3.4.0-1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- John Bond <jbond@wikimedia.org>  Fri, 10 Feb 2023 16:04:14 +0100
